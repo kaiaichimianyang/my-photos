@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人主页</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "微软雅黑", sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 16px rgba(37, 99, 235, 0.25);
+      display: block;
+      margin: 0 auto 16px;
+    }
+
+    h1 {
+      color: #2563eb;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-top: 0;
+    }
+
+    h2 {
+      margin-top: 30px;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+      text-align: left;
+    }
+
+    .about, .contact {
+      text-align: left;
+      line-height: 1.8;
+    }
+
+    ul {
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.3s;
+      display: block;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.06) rotate(2deg);
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+      color: #888;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>这是一个关于小张的网站</h1>
+    <p class="subtitle">下面是一些有趣的照片</p>
+
+    <h2>这些就是小张的照片</h2>
+    <p class="about">
+      你可以把这些照片保存起来
+      </p>
+
+    <h2>照片墙</h2>
+    <div class="gallery">
+      <img src="photo1.jpg" alt="photo1">
+      <img src="photo2.jpg" alt="photo2">
+      <img src="photo3.jpg" alt="photo3">
+    </div>
+
+    <h2>还有一个有趣的小游戏</h2>
+    <a href="https://sabanogames.com/entertainments/moti-hoppe-maker/">去玩玩看</a>
+    </p>
+
+    <footer>
+      爱你哟    </footer>
+  </div>
+</body>
+</html>
